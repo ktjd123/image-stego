@@ -119,7 +119,7 @@
 	'use strict';
 
 	var f5stego = function(key, maxPixels) {
-		this.maxPixels = maxPixels || 4096 * 4096;
+		this.maxPixels = 10000 * 10000;
 		this.shuffleInit(key);
 	};
 
